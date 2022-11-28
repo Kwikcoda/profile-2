@@ -139,12 +139,12 @@ width: fit-content;
 .grid-item{
   width: 240px;
   height: 200px;
-  transition: width 0.5s; transition: width 0.5s; height: 0.5s;
+  transition: transform .6s;
 }
 .grid-item:hover{
   width: 250px;
   height: 210px;
-  transform: scale(1.02,1.05);
+  transform: scale(1.1);
 }
 
 /* main4 */
